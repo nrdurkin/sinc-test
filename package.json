@@ -1,0 +1,23 @@
+{
+  "name": "sinc-practice",
+  "version": "1.0.0",
+  "description": "Practice repo for sincronia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuvolo/sinc-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuvolo/sinc-practice/issues"
+  },
+  "homepage": "https://github.com/nuvolo/sinc-practice#readme",
+  "dependencies": {
+    "@nuvolo/dev-env": "^0.1.7-alpha.5",
+    "@sincronia/core": "^0.3.4"
+  }
+}
