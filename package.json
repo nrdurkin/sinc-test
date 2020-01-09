@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/nuvolo/sinc-practice#readme",
   "dependencies": {
-    "@nuvolo/dev-env": "^0.1.7-alpha.5",
+    "@nuvolo/dev-env": "^0.1.10",
     "@sincronia/core": "^0.3.4"
   }
 }
