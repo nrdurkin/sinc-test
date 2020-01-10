@@ -18,6 +18,8 @@
   "homepage": "https://github.com/nuvolo/sinc-practice#readme",
   "dependencies": {
     "@nuvolo/dev-env": "^0.1.10",
-    "@sincronia/core": "^0.3.4"
+    "@sincronia/babel-plugin": "^0.3.1",
+    "@sincronia/core": "^0.3.4",
+    "@sincronia/typescript-plugin": "^0.3.3"
   }
 }
