@@ -2,14 +2,14 @@
   "tables": {
     "catalog_script_client": {
       "records": {
-        "FillContactInformation (cat_item:New Call Request)": {
+        "FillContactInformation": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "FillContactInformation (cat_item:New Call Request)",
+          "name": "FillContactInformation",
           "sys_id": "025bc7241b60041082070e966e4bcb3f"
         }
       }
@@ -102,114 +102,292 @@
         }
       }
     },
+    "sp_rectangle_menu_item": {
+      "records": {
+        "Requests": {
+          "files": [
+            {
+              "name": "record_script",
+              "type": "js"
+            }
+          ],
+          "name": "Requests",
+          "sys_id": "112bea2ddb2480505f0ca9f705961933"
+        }
+      }
+    },
     "sysevent_script_action": {
       "records": {
-        "Work Order Complete - Close Call (x_nuvo_eam.work_order_complete)": {
+        "Work Order Complete - Close Call": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Work Order Complete - Close Call (x_nuvo_eam.work_order_complete)",
+          "name": "Work Order Complete - Close Call",
           "sys_id": "97640059db33c810ee7c2f625b961970"
+        }
+      }
+    },
+    "sys_hub_flow_input": {
+      "records": {
+        "00db163cdba94450ee7c2f625b961902": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "00db163cdba94450ee7c2f625b961902",
+          "sys_id": "00db163cdba94450ee7c2f625b961902"
+        },
+        "08db127cdba94450ee7c2f625b9619b6": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "08db127cdba94450ee7c2f625b9619b6",
+          "sys_id": "08db127cdba94450ee7c2f625b9619b6"
+        },
+        "110c167cdba94450ee7c2f625b9619c5": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "110c167cdba94450ee7c2f625b9619c5",
+          "sys_id": "110c167cdba94450ee7c2f625b9619c5"
+        },
+        "18f51a38dba94450ee7c2f625b9619a4": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "18f51a38dba94450ee7c2f625b9619a4",
+          "sys_id": "18f51a38dba94450ee7c2f625b9619a4"
+        },
+        "292adaf8dba94450ee7c2f625b961986": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "292adaf8dba94450ee7c2f625b961986",
+          "sys_id": "292adaf8dba94450ee7c2f625b961986"
+        },
+        "330c967cdba94450ee7c2f625b961979": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "330c967cdba94450ee7c2f625b961979",
+          "sys_id": "330c967cdba94450ee7c2f625b961979"
+        },
+        "7f0c967cdba94450ee7c2f625b96196c": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "7f0c967cdba94450ee7c2f625b96196c",
+          "sys_id": "7f0c967cdba94450ee7c2f625b96196c"
+        },
+        "94f51a38dba94450ee7c2f625b96199d": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "94f51a38dba94450ee7c2f625b96199d",
+          "sys_id": "94f51a38dba94450ee7c2f625b96199d"
+        },
+        "990c167cdba94450ee7c2f625b9619e6": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "990c167cdba94450ee7c2f625b9619e6",
+          "sys_id": "990c167cdba94450ee7c2f625b9619e6"
+        },
+        "ae0c567cdba94450ee7c2f625b9619b6": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "ae0c567cdba94450ee7c2f625b9619b6",
+          "sys_id": "ae0c567cdba94450ee7c2f625b9619b6"
+        },
+        "c91cd67cdba94450ee7c2f625b961927": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "c91cd67cdba94450ee7c2f625b961927",
+          "sys_id": "c91cd67cdba94450ee7c2f625b961927"
+        },
+        "c91cd67cdba94450ee7c2f625b961940": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "c91cd67cdba94450ee7c2f625b961940",
+          "sys_id": "c91cd67cdba94450ee7c2f625b961940"
+        },
+        "e52ada78dba94450ee7c2f625b96196f": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "e52ada78dba94450ee7c2f625b96196f",
+          "sys_id": "e52ada78dba94450ee7c2f625b96196f"
+        },
+        "e86b523cdba94450ee7c2f625b96194b": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "e86b523cdba94450ee7c2f625b96194b",
+          "sys_id": "e86b523cdba94450ee7c2f625b96194b"
+        },
+        "ea0c567cdba94450ee7c2f625b9619aa": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "ea0c567cdba94450ee7c2f625b9619aa",
+          "sys_id": "ea0c567cdba94450ee7c2f625b9619aa"
+        },
+        "ec6bda3cdba94450ee7c2f625b961915": {
+          "files": [
+            {
+              "name": "calculation",
+              "type": "js"
+            }
+          ],
+          "name": "ec6bda3cdba94450ee7c2f625b961915",
+          "sys_id": "ec6bda3cdba94450ee7c2f625b961915"
         }
       }
     },
     "sys_script": {
       "records": {
-        "Load properties into scratchpad (collection:sys_user_group)": {
+        "Load properties into scratchpad": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Load properties into scratchpad (collection:sys_user_group)",
+          "name": "Load properties into scratchpad",
           "sys_id": "0ba6d34bdbdb8450ee7c2f625b96195e"
         },
-        "Sync Priority to Appointment (collection:x_nuvo_eam_work_order)": {
+        "Sync Priority to Appointment": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Sync Priority to Appointment (collection:x_nuvo_eam_work_order)",
+          "name": "Sync Priority to Appointment",
           "sys_id": "0d3a06e6db274010d4f66ac2ca961993"
         },
-        "Map Dispatch Actions to Current State (collection:x_nuvo_csd_call)": {
+        "Map Dispatch Actions to Current State": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Map Dispatch Actions to Current State (collection:x_nuvo_csd_call)",
+          "name": "Map Dispatch Actions to Current State",
           "sys_id": "7dfe3f0f1ba9801030761f4ead4bcb5b"
         },
-        "Add to Deleted Schema Records (collection:x_nuvo_csd_appointment)": {
+        "Add to Deleted Schema Records": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Add to Deleted Schema Records (collection:x_nuvo_csd_appointment)",
+          "name": "Add to Deleted Schema Records",
           "sys_id": "8ef2a3fedb5dcc10ee7c2f625b961948"
         },
-        "Decline Work Order (collection:x_nuvo_csd_appointment)": {
+        "Decline Work Order": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Decline Work Order (collection:x_nuvo_csd_appointment)",
+          "name": "Decline Work Order",
           "sys_id": "c7b2dbe6db11cc10ee7c2f625b96198a"
         },
-        "Sync Priorty to Work Order (collection:x_nuvo_csd_call)": {
+        "Sync Priorty to Work Order": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Sync Priorty to Work Order (collection:x_nuvo_csd_call)",
+          "name": "Sync Priorty to Work Order",
           "sys_id": "e664fa52dbab0010d4f66ac2ca961935"
         },
-        "Copy Location from Work Order (collection:x_nuvo_csd_appointment)": {
+        "Copy Location from Work Order": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Copy Location from Work Order (collection:x_nuvo_csd_appointment)",
+          "name": "Copy Location from Work Order",
           "sys_id": "f7935b2adb11cc10ee7c2f625b9619da"
         }
       }
     },
     "sys_script_client": {
       "records": {
-        "Set Appointment Label〳ReadOnly (table:x_nuvo_csd_call)": {
+        "Set Appointment Label〳ReadOnly": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Set Appointment Label〳ReadOnly (table:x_nuvo_csd_call)",
+          "name": "Set Appointment Label〳ReadOnly",
           "sys_id": "233e11d41b8a405030761f4ead4bcb9f"
         },
-        "Set type to Dispatch (table:sys_user_group)": {
+        "Set type to Dispatch": {
           "files": [
             {
               "name": "script",
               "type": "js"
             }
           ],
-          "name": "Set type to Dispatch (table:sys_user_group)",
+          "name": "Set type to Dispatch",
           "sys_id": "b64dfe98db4f40104a8da5094b96195b"
         }
       }
@@ -350,7 +528,7 @@
     },
     "sys_ui_action": {
       "records": {
-        "Reopen Call (2dd5d3eb1b65401030761f4ead4bcb91)": {
+        "Reopen Call": {
           "files": [
             {
               "name": "client_script_v2",
@@ -361,10 +539,10 @@
               "type": "js"
             }
           ],
-          "name": "Reopen Call (2dd5d3eb1b65401030761f4ead4bcb91)",
+          "name": "Reopen Call",
           "sys_id": "2dd5d3eb1b65401030761f4ead4bcb91"
         },
-        "Assign to Me (314989851bf14410bf9a542d1e4bcbac)": {
+        "Assign to Me": {
           "files": [
             {
               "name": "client_script_v2",
@@ -375,10 +553,10 @@
               "type": "js"
             }
           ],
-          "name": "Assign to Me (314989851bf14410bf9a542d1e4bcbac)",
+          "name": "Assign to Me",
           "sys_id": "314989851bf14410bf9a542d1e4bcbac"
         },
-        "Create New Contact (3cc2970fdbcc481036e88c6a68961933)": {
+        "Create New Contact": {
           "files": [
             {
               "name": "client_script_v2",
@@ -389,10 +567,10 @@
               "type": "js"
             }
           ],
-          "name": "Create New Contact (3cc2970fdbcc481036e88c6a68961933)",
+          "name": "Create New Contact",
           "sys_id": "3cc2970fdbcc481036e88c6a68961933"
         },
-        "Close Request (5f94f4f0db00c01036e88c6a68961982)": {
+        "Close Request": {
           "files": [
             {
               "name": "client_script_v2",
@@ -403,10 +581,10 @@
               "type": "js"
             }
           ],
-          "name": "Close Request (5f94f4f0db00c01036e88c6a68961982)",
+          "name": "Close Request",
           "sys_id": "5f94f4f0db00c01036e88c6a68961982"
         },
-        "Create Work Order (8125bcf0db00c01036e88c6a6896199f)": {
+        "Create Work Order": {
           "files": [
             {
               "name": "client_script_v2",
@@ -417,10 +595,10 @@
               "type": "js"
             }
           ],
-          "name": "Create Work Order (8125bcf0db00c01036e88c6a6896199f)",
+          "name": "Create Work Order",
           "sys_id": "8125bcf0db00c01036e88c6a6896199f"
         },
-        "Dispatch (8a276f2e1ba94890bf9a542d1e4bcba4)": {
+        "Dispatch": {
           "files": [
             {
               "name": "client_script_v2",
@@ -431,10 +609,10 @@
               "type": "js"
             }
           ],
-          "name": "Dispatch (8a276f2e1ba94890bf9a542d1e4bcba4)",
+          "name": "Dispatch",
           "sys_id": "8a276f2e1ba94890bf9a542d1e4bcba4"
         },
-        "New Call (fec441121b198850bf9a542d1e4bcb2e)": {
+        "New Call": {
           "files": [
             {
               "name": "client_script_v2",
@@ -445,7 +623,7 @@
               "type": "js"
             }
           ],
-          "name": "New Call (fec441121b198850bf9a542d1e4bcb2e)",
+          "name": "New Call",
           "sys_id": "fec441121b198850bf9a542d1e4bcb2e"
         }
       }
@@ -526,342 +704,464 @@
     },
     "sys_ws_operation": {
       "records": {
-        "Get Assignment Initial Load Data (Dispatch)": {
+        "Get Assignment Initial Load Data": {
           "files": [
             {
               "name": "operation_script",
               "type": "js"
             }
           ],
-          "name": "Get Assignment Initial Load Data (Dispatch)",
+          "name": "Get Assignment Initial Load Data",
           "sys_id": "15224babdb670410d4f66ac2ca9619fa"
         },
-        "Get Travel Time (Dispatch)": {
+        "Get Travel Time": {
           "files": [
             {
               "name": "operation_script",
               "type": "js"
             }
           ],
-          "name": "Get Travel Time (Dispatch)",
+          "name": "Get Travel Time",
           "sys_id": "23b259ea1b95c850bf9a542d1e4bcb8c"
         },
-        "Get Scheduler Data (Dispatch)": {
+        "Get Scheduler Data": {
           "files": [
             {
               "name": "operation_script",
               "type": "js"
             }
           ],
-          "name": "Get Scheduler Data (Dispatch)",
+          "name": "Get Scheduler Data",
           "sys_id": "2f10768cdb158050d4f66ac2ca9619d0"
         },
-        "Get Schedules (Dispatch)": {
+        "Get Schedules": {
           "files": [
             {
               "name": "operation_script",
               "type": "js"
             }
           ],
-          "name": "Get Schedules (Dispatch)",
+          "name": "Get Schedules",
           "sys_id": "6539c694db5100504a8da5094b96198d"
         },
-        "Get Unrouted Techs (Dispatch)": {
+        "Get Unrouted Techs": {
           "files": [
             {
               "name": "operation_script",
               "type": "js"
             }
           ],
-          "name": "Get Unrouted Techs (Dispatch)",
+          "name": "Get Unrouted Techs",
           "sys_id": "6bc555f3dbe94010d4f66ac2ca961932"
         },
-        "Save Schedules (Dispatch)": {
+        "Save Schedules": {
           "files": [
             {
               "name": "operation_script",
               "type": "js"
             }
           ],
-          "name": "Save Schedules (Dispatch)",
+          "name": "Save Schedules",
           "sys_id": "a4990294db5100504a8da5094b961990"
         },
-        "Check Schedules (Dispatch)": {
+        "Check Schedules": {
           "files": [
             {
               "name": "operation_script",
               "type": "js"
             }
           ],
-          "name": "Check Schedules (Dispatch)",
+          "name": "Check Schedules",
           "sys_id": "b979c694db5100504a8da5094b961991"
         },
-        "Scored Technicians (Dispatch)": {
+        "Scored Technicians": {
           "files": [
             {
               "name": "operation_script",
               "type": "js"
             }
           ],
-          "name": "Scored Technicians (Dispatch)",
+          "name": "Scored Technicians",
           "sys_id": "be99d08cdb4dc010d4f66ac2ca96198c"
+        }
+      }
+    },
+    "x_nuvo_csd_task_routing_rule": {
+      "records": {
+        "Ensure all recommended Clinical technicians have the Clinical Asset User Role": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "Ensure all recommended Clinical technicians have the Clinical Asset User Role",
+          "sys_id": "132244911b2d0490bf9a542d1e4bcb76"
+        },
+        "Route HVAC work orders to technicians with HVAC Certifications only": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "Route HVAC work orders to technicians with HVAC Certifications only",
+          "sys_id": "334840191b2d0490bf9a542d1e4bcbea"
+        },
+        "ALL": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "ALL",
+          "sys_id": "4e06abfadb550410d4f66ac2ca961922"
+        },
+        "TEST includes advanced rule": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "TEST includes advanced rule",
+          "sys_id": "5ffd7520dba94810d4f66ac2ca9619bf"
+        },
+        "Rank Technicians": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "Rank Technicians",
+          "sys_id": "7e6980591b2d0490bf9a542d1e4bcb25"
+        },
+        "Cert Check": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "Cert Check",
+          "sys_id": "c2e7e4491badc090bf9a542d1e4bcb3f"
+        },
+        "Exclude technicians from working on tasks further than 100 miles from their primary location": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "Exclude technicians from working on tasks further than 100 miles from their primary location",
+          "sys_id": "d8aa1d7a1b618890bf9a542d1e4bcb43"
+        },
+        "Ensure all recommended Facilities technicians have the Facilities Asset User Role": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "Ensure all recommended Facilities technicians have the Facilities Asset User Role",
+          "sys_id": "d96740d51b2d0490bf9a542d1e4bcb12"
         }
       }
     },
     "x_nuvo_mobile_nuvolo_property": {
       "records": {
-        "scheduler_total_hours (Dispatch)": {
+        "scheduler_total_hours": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "scheduler_total_hours (Dispatch)",
+          "name": "scheduler_total_hours",
           "sys_id": "08f83d5c1bca405030761f4ead4bcbf0"
         },
-        "appointment_secondary_display_field (Dispatch)": {
+        "appointment_secondary_display_field": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "appointment_secondary_display_field (Dispatch)",
+          "name": "appointment_secondary_display_field",
           "sys_id": "2ea72dc4db8f4050d4f66ac2ca96197c"
         },
-        "showSchedulerFilter (Dispatch)": {
+        "showSchedulerFilter": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "showSchedulerFilter (Dispatch)",
+          "name": "showSchedulerFilter",
           "sys_id": "3d30fd86dbf5881036e88c6a689619af"
         },
-        "map_tile_url (Dispatch)": {
+        "map_tile_url": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "map_tile_url (Dispatch)",
+          "name": "map_tile_url",
           "sys_id": "40d4215c1b8a405030761f4ead4bcbe4"
         },
-        "lab_devices_modal_name (Dispatch)": {
+        "lab_devices_modal_name": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "lab_devices_modal_name (Dispatch)",
+          "name": "lab_devices_modal_name",
           "sys_id": "444366dadb1b4890243aabc5ca96192c"
         },
-        "home_base_threshold (Dispatch)": {
+        "home_base_threshold": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "home_base_threshold (Dispatch)",
+          "name": "home_base_threshold",
           "sys_id": "4657419adb2f8010243aabc5ca9619f8"
         },
-        "entry_queue_query (Dispatch)": {
+        "entry_queue_query": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "entry_queue_query (Dispatch)",
+          "name": "entry_queue_query",
           "sys_id": "577cc9a21be14890bf9a542d1e4bcb23"
         },
-        "facilities_devices_modal_name (Dispatch)": {
+        "facilities_devices_modal_name": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "facilities_devices_modal_name (Dispatch)",
+          "name": "facilities_devices_modal_name",
           "sys_id": "5e53e6dadb1b4890243aabc5ca961969"
         },
-        "appointment_primary_display_field (Dispatch)": {
+        "appointment_primary_display_field": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "appointment_primary_display_field (Dispatch)",
+          "name": "appointment_primary_display_field",
           "sys_id": "7586a58cdb4f4050d4f66ac2ca961928"
         },
-        "technician_page_size (Dispatch)": {
+        "technician_page_size": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "technician_page_size (Dispatch)",
+          "name": "technician_page_size",
           "sys_id": "786af97edba94050d4f66ac2ca9619e3"
         },
-        "proposal_resolution (Dispatch)": {
+        "proposal_resolution": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "proposal_resolution (Dispatch)",
+          "name": "proposal_resolution",
           "sys_id": "7eec003ddbb90490ee7c2f625b9619c2"
         },
-        "clinical_devices_modal_name (Dispatch)": {
+        "clinical_devices_modal_name": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "clinical_devices_modal_name (Dispatch)",
+          "name": "clinical_devices_modal_name",
           "sys_id": "88628382db1f0890243aabc5ca9619c5"
         },
-        "appointments_modal_name (Dispatch)": {
+        "appointments_modal_name": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "appointments_modal_name (Dispatch)",
+          "name": "appointments_modal_name",
           "sys_id": "9b8afa0adbdb0890243aabc5ca961991"
         },
-        "default_appointment_duration (Dispatch)": {
+        "default_appointment_duration": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "default_appointment_duration (Dispatch)",
+          "name": "default_appointment_duration",
           "sys_id": "b5efac2ddbed0c10d4f66ac2ca96192b"
         },
-        "call_contact_container (Core EAM Config)": {
+        "call_contact_container": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "call_contact_container (Core EAM Config)",
+          "name": "call_contact_container",
           "sys_id": "c79ffe751b6cc41082070e966e4bcbc3"
         },
-        "dispatch_team_type (Dispatch)": {
+        "dispatch_team_type": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "dispatch_team_type (Dispatch)",
+          "name": "dispatch_team_type",
           "sys_id": "d01fdc16db430810ee7c2f625b961935"
         },
-        "scheduler_start_hour (Dispatch)": {
+        "scheduler_start_hour": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "scheduler_start_hour (Dispatch)",
+          "name": "scheduler_start_hour",
           "sys_id": "d3a8fddc1bca405030761f4ead4bcb9c"
         },
-        "technician_modal_name (Dispatch)": {
+        "technician_modal_name": {
           "files": [
             {
               "name": "value_script",
               "type": "js"
             }
           ],
-          "name": "technician_modal_name (Dispatch)",
+          "name": "technician_modal_name",
           "sys_id": "ddd1cb42db1f0890243aabc5ca9619c4"
+        }
+      }
+    },
+    "x_nuvo_mobile_properties": {
+      "records": {
+        "appointmentsViewId": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "appointmentsViewId",
+          "sys_id": "3b859c611bad4490bf9a542d1e4bcbe4"
+        },
+        "csdUseNativeMaps": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "csdUseNativeMaps",
+          "sys_id": "c7a0b3231b39cc1030761f4ead4bcb2d"
+        },
+        "availabilityViewID": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "availabilityViewID",
+          "sys_id": "f740d524dbe90450ee7c2f625b96199a"
+        }
+      }
+    },
+    "x_nuvo_mobile_schema": {
+      "records": {
+        "x_nuvo_csd_appointment": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "x_nuvo_csd_appointment",
+          "sys_id": "211061c9db918810ee7c2f625b961989"
+        },
+        "x_nuvo_eam_work_order": {
+          "files": [
+            {
+              "name": "script",
+              "type": "js"
+            }
+          ],
+          "name": "x_nuvo_eam_work_order",
+          "sys_id": "ef5d6eaadb9d8c10ee7c2f625b96190c"
         }
       }
     },
     "x_nuvo_mobile_widget_definition": {
       "records": {
-        "Appointment Form Controller (application:Technician Schedule)": {
+        "Appointment Form Controller": {
           "files": [
             {
               "name": "controller_script",
               "type": "js"
-            },
-            {
-              "name": "template",
-              "type": "html"
             }
           ],
-          "name": "Appointment Form Controller (application:Technician Schedule)",
+          "name": "Appointment Form Controller",
           "sys_id": "94130b76db1dcc10ee7c2f625b96194d"
         },
-        "Availability Save Button (application:Technician Schedule)": {
+        "Availability Save Button": {
           "files": [
             {
               "name": "controller_script",
               "type": "js"
-            },
-            {
-              "name": "template",
-              "type": "html"
             }
           ],
-          "name": "Availability Save Button (application:Technician Schedule)",
+          "name": "Availability Save Button",
           "sys_id": "b4128c4fdbddcc10ee7c2f625b961910"
         },
-        "Appointment Item (application:Technician Schedule)": {
+        "Appointment Item": {
           "files": [
             {
               "name": "controller_script",
               "type": "js"
-            },
-            {
-              "name": "template",
-              "type": "html"
             }
           ],
-          "name": "Appointment Item (application:Technician Schedule)",
+          "name": "Appointment Item",
           "sys_id": "b901ad41dbd18810ee7c2f625b9619b3"
         },
-        "Schedule Availability Button (application:Technician Schedule)": {
+        "Schedule Availability Button": {
           "files": [
             {
               "name": "controller_script",
               "type": "js"
-            },
-            {
-              "name": "template",
-              "type": "html"
             }
           ],
-          "name": "Schedule Availability Button (application:Technician Schedule)",
+          "name": "Schedule Availability Button",
           "sys_id": "d7a07e6edb9d8c10ee7c2f625b9619ad"
         },
-        "Appointment Filter Button (application:Technician Schedule)": {
+        "Appointment Filter Button": {
           "files": [
             {
               "name": "controller_script",
               "type": "js"
-            },
-            {
-              "name": "template",
-              "type": "html"
             }
           ],
-          "name": "Appointment Filter Button (application:Technician Schedule)",
+          "name": "Appointment Filter Button",
           "sys_id": "ea80fa6edb9d8c10ee7c2f625b9619c7"
         }
       }
