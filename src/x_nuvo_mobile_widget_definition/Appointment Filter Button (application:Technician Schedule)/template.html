@@ -1,0 +1,8 @@
+<div class="appt-filter-container" ng-show="isOnline">
+  <div class="badge-container">
+    <button class="button nuvo-secondary" ng-click="setFilter()">
+      {{buttonMessage}}
+    </button>
+    <span class="appt-badge" ng-show="shouldShowBadge()">{{pendingCount}}</span>
+  </div>
+</div>

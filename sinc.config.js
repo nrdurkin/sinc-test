@@ -1,2 +1,9 @@
-const config = require('@nuvolo/sinc-config');
-module.exports = config;
+module.exports = {
+      sourceDirectory: "src",
+      buildDirectory: "build",
+      rules: [],
+      excludes:{},
+      includes:{},
+      tableOptions:{},
+      refreshInterval:30
+    };

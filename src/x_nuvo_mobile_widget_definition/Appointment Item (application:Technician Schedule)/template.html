@@ -1,0 +1,35 @@
+<div>
+  <div class="dispatch-appt-container" ng-click="openWorkOrder()">
+    <div class="dispatch-appt-info">
+      <div class="dispatch-appt-title">
+        <b>{{displayValue}}</b> {{current.title.value}}
+      </div>
+      <p>
+        {{date}}
+      </p>
+      <p>
+        {{durationMsg}}
+      </p>
+    </div>
+    <div class="dispatch-appt-nav" ng-if="shouldShowNav()">
+      <button
+        class="button nuvo-secondary centered-button"
+        ng-click="navigate($event)"
+      >
+        <i class="material-icons">
+          drive_eta
+        </i>
+      </button>
+    </div>
+  </div>
+  <div class="dispatch-appt-actions">
+    <div class="dispatch-accept-decline" ng-if="isRequested()">
+      <button class="button nuvo-secondary" ng-click="rejectAppt()">
+        {{"CSD_M_REJECT" | translate}}
+      </button>
+      <button class="button nuvo-primary" ng-click="acceptAppt()">
+        {{"CSD_M_ACCEPT" | translate}}
+      </button>
+    </div>
+  </div>
+</div>
