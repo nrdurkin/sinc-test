@@ -19,7 +19,7 @@
   "dependencies": {
     "@nuvolo/dev-env": "^0.1.10",
     "@sincronia/babel-plugin": "^0.3.1",
-    "@sincronia/core": "^0.3.4",
+    "@sincronia/core": "0.3.10-alpha.2",
     "@sincronia/typescript-plugin": "^0.3.3"
   }
 }
